@@ -3,6 +3,8 @@ I wrote a simple script that copy and downloads the necessary files to configure
 
 
 
+AFTER THE SCRIPT HAS DONE ITS JOB NAVIGATE TO ~/.config/nvim/lua/alt/packer.lua
+:PackerSync or :PackerInstall
 
 
 
