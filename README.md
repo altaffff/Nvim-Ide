@@ -36,3 +36,16 @@ You can even Navigate to ~/.config/nvim/after/plugin/Lsp.lua To get LSP keybindi
 ~/.config/nvim/after/plugin/telescop.lua To know the telescope keybindings 
 
 
+
+
+
+
+
+
+
+
+
+
+
+IF YOU GUYS HAVE WAY MORE COOL CONFIGS PLEASE SHARE WITH ME . AM NEW TO THIS WORLD AND VERY EXCITED TO SHARE AND LEARN .
+
