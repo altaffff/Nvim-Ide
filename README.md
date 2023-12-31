@@ -1,3 +1,19 @@
+
+
+
+![look](https://github.com/altaffff/Nvim-Ide/assets/17230253/649f54cf-1700-457d-bdfc-2a5f3731764f)
+
+
+
+![nerdtree](https://github.com/altaffff/Nvim-Ide/assets/17230253/5e5a69a8-93a2-44fd-ab5d-8e10a5701ec0)
+
+
+
+![undotree](https://github.com/altaffff/Nvim-Ide/assets/17230253/ecdb328f-2750-4dd3-88e7-4d223682b199)
+
+
+
+
 # Nvim-Ide
 I wrote a simple script that copy and downloads the necessary files to configure your Nvim to an full on Ide .
 
