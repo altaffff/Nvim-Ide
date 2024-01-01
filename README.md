@@ -60,6 +60,51 @@ You can even Navigate to ~/.config/nvim/after/plugin/Lsp.lua To get LSP keybindi
 
 
 
+Here are some keybinds that get you started 
+
+
+
+![Keybindings](https://github.com/altaffff/Nvim-Ide/assets/17230253/6eea8967-ea17-4783-9978-bfed3a4456b2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+After hard at coding you and your nvim needs to chill, so presenting  "SNOW FLAKES" . Just give some rest to your nvim since am sure it has gotten HOT!!!
+
+
+
+
+
+
+
+
+![snowflakes](https://github.com/altaffff/Nvim-Ide/assets/17230253/57b7a8e9-60de-4dfd-9a4b-448768bc94e2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
