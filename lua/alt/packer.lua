@@ -68,20 +68,13 @@ return require('packer').startup(function(use)
 
     use{'nvim-telescope/telescope-live-grep-args.nvim'}
 
-    -- use {
-  -- "folke/which-key.nvim",
-  -- config = function()
-    -- vim.o.timeout = true
-    -- vim.o.timeoutlen = 300
-    -- require("which-key").setup {
-    --   -- your configuration comes here
-    --   -- or leave it empty to use the default settings
-    --   -- refer to the configuration section below
-    --      }
-    --     end
-    --     }
-
-
+	use {
+    'goolord/alpha-nvim',
+    requires = { 'nvim-tree/nvim-web-devicons' },
+    config = function ()
+        require'alpha'.setup(require'alpha.themes.startify'.config)
+    end
+		} 
 		
        --Lualine
 	use {
@@ -91,7 +84,16 @@ return require('packer').startup(function(use)
 	opt = true }
 	}
 	
-
+	--Xams make it rain(Cosmatics)
+		use {
+  "folke/drop.nvim",
+  event = "VimEnter",
+  config = function()
+    math.randomseed(os.time())
+    local theme = ({ "stars", "snow", "xmas" })[math.random(1, 3)]
+    require("drop").setup { theme = theme }
+  end,
+			}
       -- c++ stuff
     use('rhysd/vim-clang-format')
 
