@@ -67,7 +67,7 @@ return require('packer').startup(function(use)
     use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
     use{'nvim-telescope/telescope-live-grep-args.nvim'}
-
+	--Startup Screen
 	use {
     'goolord/alpha-nvim',
     requires = { 'nvim-tree/nvim-web-devicons' },
@@ -96,8 +96,21 @@ return require('packer').startup(function(use)
 			}
       -- c++ stuff
     use('rhysd/vim-clang-format')
+	
+	  --Git signify
 
+	use('mhinz/vim-signify')
+
+		--Git 
+	use('tpope/vim-rhubarb')
+
+
+		--Git Browser
+	use('junegunn/gv.vim')
      --Theme
     use "ellisonleao/gruvbox.nvim"
+
+	--Git Fugitive
+	 use("tpope/vim-fugitive")
 
      end)
